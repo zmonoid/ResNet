@@ -30,3 +30,13 @@
 2017-03-21 14:10:20,242 Node[0] Epoch[0] Batch [250]	Speed: 315.59 samples/sec	Train-top_k_accuracy_5=0.017500
 2017-03-21 14:11:00,988 Node[0] Epoch[0] Batch [300]	Speed: 314.14 samples/sec	Train-accuracy=0.003828
 2017-03-21 14:11:00,988 Node[0] Epoch[0] Batch [300]	Speed: 314.14 samples/sec	Train-top_k_accuracy_5=0.020625
+2017-03-21 14:11:41,578 Node[0] Epoch[0] Batch [350]	Speed: 315.35 samples/sec	Train-accuracy=0.005938
+2017-03-21 14:11:41,579 Node[0] Epoch[0] Batch [350]	Speed: 315.35 samples/sec	Train-top_k_accuracy_5=0.025000
+2017-03-21 14:12:22,635 Node[0] Epoch[0] Batch [400]	Speed: 311.77 samples/sec	Train-accuracy=0.006484
+2017-03-21 14:12:22,635 Node[0] Epoch[0] Batch [400]	Speed: 311.77 samples/sec	Train-top_k_accuracy_5=0.027656
+2017-03-21 14:13:03,254 Node[0] Epoch[0] Batch [450]	Speed: 315.13 samples/sec	Train-accuracy=0.007344
+2017-03-21 14:13:03,254 Node[0] Epoch[0] Batch [450]	Speed: 315.13 samples/sec	Train-top_k_accuracy_5=0.032734
+2017-03-21 14:13:43,945 Node[0] Epoch[0] Batch [500]	Speed: 314.57 samples/sec	Train-accuracy=0.007578
+2017-03-21 14:13:43,945 Node[0] Epoch[0] Batch [500]	Speed: 314.57 samples/sec	Train-top_k_accuracy_5=0.036797
+2017-03-21 14:14:24,435 Node[0] Epoch[0] Batch [550]	Speed: 316.13 samples/sec	Train-accuracy=0.011172
+2017-03-21 14:14:24,435 Node[0] Epoch[0] Batch [550]	Speed: 316.13 samples/sec	Train-top_k_accuracy_5=0.037969
