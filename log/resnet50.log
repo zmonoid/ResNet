@@ -1,0 +1,32 @@
+2017-03-21 13:57:58,946 Node[0] start with arguments Namespace(aug_level=3, batch_size=256, bn_mom=0.9, data_dir='./data', frequent=50, gpus='0,1,2,3', kv_store='device', list_dir='./data/', load_model_prefix='models/resnet-50', lr=0.1, model_load_epoch=0, mom=0.9, network='resnet-50', num_classes=1000, num_examples=1281167, save_log_prefix='log/resnet50', save_model_prefix='checkpoints/resnet50', wd=0.0001, workspace=512)
+2017-03-21 13:58:00,900 Node[0] Start training with [gpu(0), gpu(1), gpu(2), gpu(3)]
+2017-03-21 13:58:45,792 Node[0] Epoch[0] Batch [50]	Speed: 366.71 samples/sec	Train-accuracy=0.044297
+2017-03-21 13:58:45,792 Node[0] Epoch[0] Batch [50]	Speed: 366.71 samples/sec	Train-top_k_accuracy_5=0.120078
+2017-03-21 13:59:26,663 Node[0] Epoch[0] Batch [100]	Speed: 313.18 samples/sec	Train-accuracy=0.123281
+2017-03-21 13:59:26,664 Node[0] Epoch[0] Batch [100]	Speed: 313.18 samples/sec	Train-top_k_accuracy_5=0.296094
+2017-03-21 14:00:07,239 Node[0] Epoch[0] Batch [150]	Speed: 315.46 samples/sec	Train-accuracy=0.156484
+2017-03-21 14:00:07,239 Node[0] Epoch[0] Batch [150]	Speed: 315.46 samples/sec	Train-top_k_accuracy_5=0.355234
+2017-03-21 14:01:23,603 Node[0] start with arguments Namespace(aug_level=2, batch_size=256, bn_mom=0.9, data_dir='./data', frequent=50, gpus='0,1,2,3', kv_store='device', list_dir='./data/', load_model_prefix='models/resnet-50', lr=0.1, model_load_epoch=0, mom=0.9, network='resnet-50', num_classes=1000, num_examples=1281167, save_log_prefix='log/resnet50', save_model_prefix='checkpoints/resnet50', wd=0.0001, workspace=512)
+2017-03-21 14:01:40,660 Node[0] start with arguments Namespace(aug_level=2, batch_size=256, bn_mom=0.9, data_dir='./data', frequent=50, gpus='0,1,2,3', kv_store='device', list_dir='./data/', load_model_prefix='models/resnet-50', lr=0.1, model_load_epoch=0, mom=0.9, network='resnet-50', num_classes=1000, num_examples=1281167, save_log_prefix='log/resnet50', save_model_prefix='checkpoints/resnet50', wd=0.0001, workspace=512)
+2017-03-21 14:03:38,727 Node[0] start with arguments Namespace(aug_level=2, batch_size=256, bn_mom=0.9, data_dir='./data', frequent=50, gpus='0,1,2,3', kv_store='device', list_dir='./data/', load_model_prefix='models/resnet-50', lr=0.1, model_load_epoch=0, mom=0.9, network='resnet-50', num_classes=1000, num_examples=1281167, save_log_prefix='log/resnet50', save_model_prefix='checkpoints/resnet50', wd=0.0001, workspace=512)
+2017-03-21 14:03:40,587 Node[0] Start training with [gpu(0), gpu(1), gpu(2), gpu(3)]
+2017-03-21 14:04:24,017 Node[0] Epoch[0] Batch [50]	Speed: 380.89 samples/sec	Train-accuracy=0.030937
+2017-03-21 14:04:24,017 Node[0] Epoch[0] Batch [50]	Speed: 380.89 samples/sec	Train-top_k_accuracy_5=0.092344
+2017-03-21 14:04:59,831 Node[0] Epoch[0] Batch [100]	Speed: 357.41 samples/sec	Train-accuracy=0.109531
+2017-03-21 14:04:59,831 Node[0] Epoch[0] Batch [100]	Speed: 357.41 samples/sec	Train-top_k_accuracy_5=0.275313
+2017-03-21 14:05:35,544 Node[0] Epoch[0] Batch [150]	Speed: 358.42 samples/sec	Train-accuracy=0.154922
+2017-03-21 14:05:35,544 Node[0] Epoch[0] Batch [150]	Speed: 358.42 samples/sec	Train-top_k_accuracy_5=0.347656
+2017-03-21 14:07:06,654 Node[0] start with arguments Namespace(aug_level=2, batch_size=256, bn_mom=0.9, data_dir='./data', frequent=50, gpus='0,1,2,3', kv_store='device', list_dir='./data/', load_model_prefix=None, lr=0.1, model_load_epoch=0, mom=0.9, network='resnet-50', num_classes=1000, num_examples=1281167, save_log_prefix='log/resnet50', save_model_prefix='checkpoints/resnet50', wd=0.0001, workspace=512)
+2017-03-21 14:07:08,552 Node[0] Start training with [gpu(0), gpu(1), gpu(2), gpu(3)]
+2017-03-21 14:07:51,928 Node[0] Epoch[0] Batch [50]	Speed: 381.04 samples/sec	Train-accuracy=0.001719
+2017-03-21 14:07:51,928 Node[0] Epoch[0] Batch [50]	Speed: 381.04 samples/sec	Train-top_k_accuracy_5=0.006406
+2017-03-21 14:08:26,613 Node[0] Epoch[0] Batch [100]	Speed: 369.04 samples/sec	Train-accuracy=0.003359
+2017-03-21 14:08:26,614 Node[0] Epoch[0] Batch [100]	Speed: 369.04 samples/sec	Train-top_k_accuracy_5=0.010391
+2017-03-21 14:09:00,938 Node[0] Epoch[0] Batch [150]	Speed: 372.91 samples/sec	Train-accuracy=0.002812
+2017-03-21 14:09:00,938 Node[0] Epoch[0] Batch [150]	Speed: 372.91 samples/sec	Train-top_k_accuracy_5=0.013047
+2017-03-21 14:09:39,682 Node[0] Epoch[0] Batch [200]	Speed: 330.37 samples/sec	Train-accuracy=0.003047
+2017-03-21 14:09:39,683 Node[0] Epoch[0] Batch [200]	Speed: 330.37 samples/sec	Train-top_k_accuracy_5=0.017266
+2017-03-21 14:10:20,242 Node[0] Epoch[0] Batch [250]	Speed: 315.59 samples/sec	Train-accuracy=0.004453
+2017-03-21 14:10:20,242 Node[0] Epoch[0] Batch [250]	Speed: 315.59 samples/sec	Train-top_k_accuracy_5=0.017500
+2017-03-21 14:11:00,988 Node[0] Epoch[0] Batch [300]	Speed: 314.14 samples/sec	Train-accuracy=0.003828
+2017-03-21 14:11:00,988 Node[0] Epoch[0] Batch [300]	Speed: 314.14 samples/sec	Train-top_k_accuracy_5=0.020625
