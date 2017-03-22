@@ -29,17 +29,23 @@ def main(kv):
         depth = args.network.split('-')[1]
         symbol = importlib.import_module('symbols.' + name).get_symbol(
             args.num_classes, int(depth), str(crop_shape)[1:-1])
+        train_rec = 'train_%d.rec' % img_shape[1]
+        val_rec = 'val_256.rec'
 
     elif args.network.startswith('inception'):
         img_shape = (3, 337, 337)
         crop_shape = (3, 299, 299)
         symbol = importlib.import_module('symbols.' + args.network).get_symbol(
             args.num_classes)
+        train_rec = 'train_%d.rec' % img_shape[1]
+        val_rec = 'val_337.rec'
     elif args.network.startswith('vgg'):
         img_shape = (3, 256, 256)
         crop_shape = (3, 224, 224)
         symbol = importlib.import_module('symbols.' + args.network).get_symbol(
             args.num_classes)
+        train_rec = 'train_%d.rec' % img_shape[1]
+        val_rec = 'val_256.rec'
 
     if args.gpus is None:
         devs = mx.cpu()
@@ -61,9 +67,6 @@ def main(kv):
         bla, arg_params, aux_params = mx.model.load_checkpoint(
             args.load_model_prefix, args.model_load_epoch)
         print bla
-
-    train_rec = 'train_%d.rec' % img_shape[1]
-    val_rec = 'val_%d.rec' % img_shape[1]
 
     train = mx.io.ImageRecordIter(
         path_imgrec=os.path.join(args.data_dir, train_rec),

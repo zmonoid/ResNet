@@ -81,6 +81,7 @@ def main():
         plot_acc(log_files[c], color[c])
     plt.grid(True)
     plt.savefig(args.out)
+    plt.show()
 
 
 if __name__ == "__main__":

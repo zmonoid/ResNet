@@ -2,10 +2,10 @@
 DATASHAPE=256
 CROPSHAPE=224
 
-NETWORK=resnet-50
-LOADMODEL=models/resnet-50
-#NETWORK=inception-v3
-#LOADMODEL=models/Inception-V3
+#NETWORK=resnet-50
+#LOADMODEL=models/resnet-50
+NETWORK=inception-v3
+LOADMODEL=models/Inception-V3
 
 CLASSES=1000
 #CLASSES=$(find ./data/train -mindepth 1 -type d | wc -l)
